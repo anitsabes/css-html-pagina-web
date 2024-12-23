@@ -1,0 +1,143 @@
+
+
+.header {
+    background-image: url(images\ \(2\).jfif); /* Corregir la ruta de la imagen */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    min-height: 80vh;
+    padding: 60px 0;
+    text-align: center; /* Centrar el contenido del header */
+  }
+  
+  .info {
+    display: block;
+    justify-items: center;
+    align-items: flex-start; /* Alinear elementos verticalmente al inicio */
+    margin-top: 20px; /* Agregar espacio arriba de la sección */
+  }
+  
+  .info ul{ 
+    margin-right: 20px; /* Agregar espacio entre elementos */
+  }
+  
+  /* ... resto de los estilos ... */
+  
+  .menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; /* Add padding for better spacing */
+  }
+  
+  .logo {
+    color: #111010;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  
+  .menu .navbar ul {
+    display: flex;
+  }
+  
+  .menu .navbar ul li {
+    margin: 0 10px; /* Add spacing between menu items */
+  }
+  
+  .menu .navbar ul li a {
+    font-size: 18px;
+    padding: 5px 10px;
+    color: #070101;
+    font-weight: 600;
+    border-radius: 5px; /* Add subtle border radius for better appearance */
+    transition: all 0.3s ease; /* Smooth hover transitions */
+  }
+  
+  .menu .navbar ul li a:hover {
+    color: #070706;
+    background-color: rgba(44, 223, 255, 0.1); /* Subtle hover effect */
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  section {
+    padding: 10px;
+  }
+  
+  .contact-info {
+    
+    text-align: left;
+    color: #f9f8f8; /* White text color */
+    text-shadow: #070101;
+    -webkit-text-stroke-color: #070706;
+  }
+  
+  .contact-form-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  /* Estilos para el formulario */
+  #contact-form {
+    width: 100%;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 7px;
+  }
+
+
+  
+  .contact-info p {
+    margin-bottom: 5px;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info ul li {
+    display: block;
+    margin-right: 5px;
+  }
+  
+  .contact-info ul li a {
+    text-decoration: none;
+  }
+  
+  .contact-info ul li a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  
+  
+  .payment-methods ul {
+    list-style: none;
+    padding: 3px;
+  }
+  
+  .payment-methods ul li {
+    margin-bottom: 3px;
+  }
